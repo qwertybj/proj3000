@@ -1,0 +1,10 @@
+---
+- name: test playbook
+  hosts: all
+
+  tasks:
+
+  - name: set hostname
+    ios_config:
+      lines:
+        - hostname SW100
