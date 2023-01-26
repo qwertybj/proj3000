@@ -5,6 +5,6 @@
   tasks:
 
   - name: set hostname
-    ios_config:
+    cisco.ios.ios_config:
       lines:
         - hostname SW100
